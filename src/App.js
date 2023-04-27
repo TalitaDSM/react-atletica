@@ -9,7 +9,7 @@ function App() {
       <Switch>
         <Container customClass="min-height">
           <Route exact path='/'>
-            <Home />
+            <Inicio />
           </Route>
           <Route exact path='/cadastro'>
             <Cadastro />
@@ -38,7 +38,7 @@ function App() {
         </Router>
       </Container>
     </Switch><Footer /></>
-  
+
   )
 }
 
