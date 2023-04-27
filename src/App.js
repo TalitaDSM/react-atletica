@@ -1,5 +1,7 @@
+import { Router, Route } from 'react-router-dom'
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
+import Container from './components/layouts/Container'
 import Cadastro from './components/pages/Cadastro'
 import Campeonatos from './components/pages/Campeonatos'
 import Contato from './components/pages/Contato'
