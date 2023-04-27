@@ -1,6 +1,16 @@
 import './App.css';
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
+import Cadastro from './components/pages/Cadastro'
+import Campeonatos from './components/pages/Campeonatos'
+import Contato from './components/pages/Contato'
+import Eventos from './components/pages/Eventos'
+import Inicio from './components/pages/Inicio'
+import LoginPage from './components/pages/LoginPage'
+import LojaVirtual from './components/pages/LojaVirtual'
+import Modalidades from './components/pages/Modalidades'
+import QuemSomos from './components/pages/QuemSomos'
+
 
 function App() {
   return (
@@ -20,8 +30,8 @@ function App() {
           <Route exact path='/modalidades'>
             <Modalidades />
           </Route>
-          <Route exact path='/campeonato'>
-            <Campeonato />
+          <Route exact path='/campeonatos'>
+            <Campeonatos />
           </Route>
           <Route exact path='/eventos'>
             <Eventos />
@@ -32,8 +42,8 @@ function App() {
           <Route exact path='/contato'>
             <Contato />
           </Route>
-          <Route exact path='/login'>
-            <Login />
+          <Route exact path='/loginpage'>
+            <LoginPage />
           </Route>
         </Router>
       </Container>
