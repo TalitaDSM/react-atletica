@@ -1,10 +1,12 @@
 import './App.css';
+import NavBar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <NavBar />
+      <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cadastro' element={<Cadastro />} />
