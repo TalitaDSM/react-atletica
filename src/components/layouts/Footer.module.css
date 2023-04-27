@@ -1,0 +1,12 @@
+.footer {
+    background-color: #630101 ; 
+    color: #fff;
+    padding: 3em ;
+    text-align: center;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
