@@ -1,26 +1,44 @@
 import './App.css';
-import NavBar from './components/Navbar'
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
+    <><Router>
       <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/cadastro' element={<Cadastro />} />
-          <Route path='/quemsomos' element={<QuemSomos />} />
-          <Route path='/modalidades' element={<Modalidades />} />
-          <Route path='/campeonato' element={<Campeonato />} />
-          <Route path='/eventos' element={<Eventos />} />
-          <Route path='/lojavirtual' element={<LojaVirtual />} />
-          <Route path='/contato' element={<Contato />} />
-          <Route path='/login' element={<Login />} />
-        </Routes>
-      </BrowserRouter>
-      <Footer />
-    </>
+      <Switch>
+        <Container customClass="min-height">
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/cadastro'>
+            <Cadastro />
+          </Route>
+          <Route exact path='/quemsomos'>
+            <QuemSomos />
+          </Route>
+          <Route exact path='/modalidades'>
+            <Modalidades />
+          </Route>
+          <Route exact path='/campeonato'>
+            <Campeonato />
+          </Route>
+          <Route exact path='/eventos'>
+            <Eventos />
+          </Route>
+          <Route exact path='/lojavirtual'>
+            <LojaVirtual />
+          </Route>
+          <Route exact path='/contato'>
+            <Contato />
+          </Route>
+          <Route exact path='/login'>
+            <Login />
+          </Route>
+        </Router>
+      </Container>
+    </Switch><Footer /></>
+  
   )
 }
 
