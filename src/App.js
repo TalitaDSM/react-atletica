@@ -14,7 +14,7 @@ import QuemSomos from './components/pages/QuemSomos'
 
 function App() {
   return (
-    <><Router>
+    <Router>
       <Navbar />
       <Switch>
         <Container customClass="min-height">
@@ -45,11 +45,11 @@ function App() {
           <Route exact path='/loginpage'>
             <LoginPage />
           </Route>
-        </Router>
-      </Container>
-    </Switch><Footer /></>
-
+        </Container>
+      </Switch>
+      <Footer />
+    </Router>
   )
 }
 
-export default App;
+export default App
