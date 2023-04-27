@@ -1,46 +1,47 @@
 import { Link } from 'react-router-dom'
+import Container from './Container'
 import styles from './Navbar.module.css'
 import logo from '../../img/menu-superior/logo_atletica.png'
 
 function Navbar() {
 
     return (
-        <nav className={styles.navbar}>
+        <div className={styles.navbar}>
             <Container>
                 <Link to='/'>
                     <img src={logo} alt="logo-atletica" />
                 </Link>
                 <ul className={styles.list}>
                     <li className={styles.item}>
-                        <Link to='/'>Início</Link>
+                        <Link to="/">Início</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Quem Somos</Link>
+                        <Link to="/quemsomos">Quem Somos</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Modalidades</Link>
+                        <Link to="/modalidades">Modalidades</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Campeonatos</Link>
+                        <Link to="/campeonatos">Campeonatos</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Eventos</Link>
+                        <Link to="/eventos">Eventos</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Loja Virtual</Link>
+                        <Link to="/lojavirtual">Loja Virtual</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Contato</Link>
+                        <Link to="/contato">Contato</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Cadastrar</Link>
+                        <Link to="/cadastro">Cadastrar</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/'>Login</Link>
+                        <Link to="/loginpage">Login</Link>
                     </li>
                 </ul>
             </Container>
-        </nav>
+        </div>
     )
 }
 

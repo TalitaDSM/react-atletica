@@ -1,4 +1,4 @@
-import { Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
 import Container from './components/layouts/Container'
@@ -19,31 +19,31 @@ function App() {
       <Navbar />
       <Switch>
         <Container customClass="min-height">
-          <Route exact path='/'>
+          <Route exact path="/">
             <Inicio />
           </Route>
-          <Route exact path='/cadastro'>
+          <Route exact path="/cadastro">
             <Cadastro />
           </Route>
-          <Route exact path='/quemsomos'>
+          <Route exact path="/quemsomos">
             <QuemSomos />
           </Route>
-          <Route exact path='/modalidades'>
+          <Route exact path="/modalidades">
             <Modalidades />
           </Route>
-          <Route exact path='/campeonatos'>
+          <Route exact path="/campeonatos">
             <Campeonatos />
           </Route>
           <Route exact path='/eventos'>
             <Eventos />
           </Route>
-          <Route exact path='/lojavirtual'>
+          <Route exact path="/lojavirtual">
             <LojaVirtual />
           </Route>
-          <Route exact path='/contato'>
+          <Route exact path="/contato">
             <Contato />
           </Route>
-          <Route exact path='/loginpage'>
+          <Route exact path="/loginpage">
             <LoginPage />
           </Route>
         </Container>
