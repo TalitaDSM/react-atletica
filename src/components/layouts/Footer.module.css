@@ -8,6 +8,17 @@
 .social_list {
     display: flex;
     justify-content: center;
+}
+
+.social_list a {
+    margin: 0 1em;
+}
+
+.social_list img {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
     list-style-type: none;
 }
 
