@@ -11,21 +11,13 @@
     align-items: center;
 }
 
-.logo_atletica {
-    width: 150px;
+.logo_atletica img {
+    width: 100px;
     height: auto;
     float: left;
     margin-left: 1%;
     margin-top: 1%; 
 }
-
-/*.logo {
-    width: 150px;
-    height: auto;
-    float: left;
-    margin-left: 1%;
-    margin-top: 1%; 
-}*/
 
 .item {
     margin-right: 1em;
