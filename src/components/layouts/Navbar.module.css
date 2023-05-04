@@ -12,11 +12,11 @@
 }
 
 .logo_atletica img {
-    width: 100px;
+    width: 150px;
     height: auto;
     float: left;
     margin-left: 1%;
-    margin-top: 1%; 
+    margin-top: 1%;
 }
 
 .item {
@@ -36,7 +36,7 @@
     display: flex;
 }
 
-.acessibilidade__atalhos a{
+.acessibilidade__atalhos a {
     margin-left: 1em;
 }
 
