@@ -1,79 +1,80 @@
-import React from "react";      
+import React from "react"; 
+import styles from './Inicio.module.css'     
 
 function Inicio () {
     return 
-    <main id="conteudo">
-        <section class="banner">
-            <div class="banner__imagem indexImagem"> </div>
-            <h1 class="banner__titulo">ATLÉTICA FATEC ZONA LESTE</h1>
+    <main className={styles.}"conteudo">
+        <section className={styles.}"banner">
+            <div className={styles.}"banner__imagem indexImagem"> </div>
+            <h1 className={styles.}"banner__titulo">ATLÉTICA FATEC ZONA LESTE</h1>
         </section>
-        <div vw class="enabled">
-            <div vw-access-button class="active"></div>
+        <div vw className={styles.}"enabled">
+            <div vw-access-button class={styles.}"active"></div>
             <div vw-plugin-wrapper>
-              <div class="vw-plugin-top-wrapper"></div>
+              <div className={styles.}"vw-plugin-top-wrapper"></div>
             </div>
         </div>
         <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
         </script>
-        <section class="mural">
-            <h2 class="mural__titulo">Fique por dentro do que acontece na Atlética Fatec ZL</h2>
-            <div class="noticias">
-                <div class="noticia">
-                    <img class="noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Modalidades Esportivas</h3>
-                        <p class="noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
+        <section className={styles.}"mural">
+            <h2 className={styles.}"mural__titulo">Fique por dentro do que acontece na Atlética Fatec ZL</h2>
+            <div className={styles.}"noticias">
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Modalidades Esportivas</h3>
+                        <p className={styles.}"noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Multirão de Limpeza</h3>
-                        <p class="noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Multirão de Limpeza</h3>
+                        <p className={styles.}"noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="assets\img\mural\college_vermelha.webp" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Lojinha da Atlética</h3>
-                        <p class="noticia__descricao">Conheça os novos produtos da lojinha da Atlética.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="assets\img\mural\college_vermelha.webp" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Lojinha da Atlética</h3>
+                        <p className={styles.}"noticia__descricao">Conheça os novos produtos da lojinha da Atlética.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Modalidades Esportivas</h3>
-                        <p class="noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Modalidades Esportivas</h3>
+                        <p className={styles.}"noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Multirão de Limpeza</h3>
-                        <p class="noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Multirão de Limpeza</h3>
+                        <p className={styles.}"noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="assets\img\mural\college_vermelha.webp" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Lojinha da Atlética</h3>
-                        <p class="noticia__descricao">Conheça os novos produtos da lojinha da Atlética.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="assets\img\mural\college_vermelha.webp" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Lojinha da Atlética</h3>
+                        <p className={styles.}"noticia__descricao">Conheça os novos produtos da lojinha da Atlética.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Modalidades Esportivas</h3>
-                        <p class="noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
+                <div className={styles.}"noticia">
+                    <img className={styles.}"noticia__imagem" src="./assets/img/mural/modalidades_mural.PNG " alt="Imagem contendo a equipe de futsal feminino da Fatec">
+                    <div className={styles.}"noticia__conteudo">
+                        <h3 className={styles.}"noticia__titulo">Modalidades Esportivas</h3>
+                        <p className={styles.}"noticia__descricao">Conheça e participe das modalidades esportivas da nossa Atlética.</p>
                     </div>
                 </div>
-                <div class="noticia">
-                    <img class="noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
-                    <div class="noticia__conteudo">
-                        <h3 class="noticia__titulo">Multirão de Limpeza</h3>
-                        <p class="noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
+                <div claclassNamess="noticia">
+                    <img className="noticia__imagem" src="assets\img\mural\eventos_multirao_atletica.jpg" alt="Imagem contendo a frase mutirão fatec zl juntamente com a data de vinte e um de novembro">
+                    <div className="noticia__conteudo">
+                        <h3 className="noticia__titulo">Multirão de Limpeza</h3>
+                        <p className="noticia__descricao">Participe do Multirão de Limpeza 2022.</p>
                     </div>
                 </div>
             </div>
