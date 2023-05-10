@@ -1,0 +1,87 @@
+.acessibilidade__atalhos {
+    display: flex;
+}
+
+.acessibilidade__atalhos a{
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 550px) {
+    .acessibilidade__atalhos {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .acessibilidade__atalhos {
+        display: none;
+    }
+}
+
+.acessibilidade {
+    background-color: var(--branco-medio);
+    display: flex;
+    font-size: .7em;
+    justify-content: space-between;
+    padding: 0.2em 0 0.2em 0;
+    border: 0;
+    margin: 0;
+}
+
+.acessibilidade ul {
+    list-style: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.acessibilidade a {
+    color: var(--acessibilidade-links);
+    text-decoration: none;
+}
+
+.acessibilidade a:hover {
+    color: var(--azul-link);
+    text-decoration: underline;
+}
+
+.PaginaAcessibilidade {
+    text-align: justify;
+    padding: 1.5em;
+    font-size: 1em;
+}
+
+.PaginaAcessibilidade p {
+    margin: 0;
+    padding: 0;
+}
+.acessibilidade__links {
+    display: flex;
+}
+
+.acessibilidade__links a {
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 550px) {
+    .acessibilidade__links {
+        font-size: 1em;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .acessibilidade__links a {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .acessibilidade__links {
+        font-size: 1em;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .acessibilidade__links a {
+        margin-right: 0;
+    }
+}
