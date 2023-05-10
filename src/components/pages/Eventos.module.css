@@ -1,0 +1,41 @@
+.evento__descricao {
+    font-size: 1em;
+    margin-top: 1em;
+    text-align: justify;
+}
+.evento__imagem {
+    height: 250px; 
+    width: 250px;
+}
+.evento__titulo {
+    font-size: 1.2em;
+    padding-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.evento {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    width: 25%;
+}
+
+@media screen and (max-width: 855px) {
+    .evento {
+        width: 90%;
+    }
+}
+
+.eventos__quadro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 855px) {
+    .eventos__quadro {
+        flex-direction: column;
+    }
+}
