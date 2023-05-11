@@ -1,0 +1,176 @@
+:root {
+    --branco-medio: #fefefe;
+    --branco-texto: #fefefe;
+    --preto-padrao: black;
+    --vermelho-atletica: rgba(99, 1, 1, 1);
+    --background: #e5e5e5;
+    --titulo-h1: rgba(99, 1, 1, 1);
+    --cinza-fundo: rgba(229, 229, 229, 0.432);
+    --titulo-h2: rgb(232, 182, 2);
+    --menu-cor: #d2caba;
+    --menu-hover: #af9264;
+    --azul-link: blue;
+    --acessibilidade-links: black;
+    --vermelho-link: rgba(99, 1, 1, 1);
+    --background-card: #fdfdfd;
+    --sombra-card-mural: rgb(170, 170, 170);
+    --titulo-modalidade: black;
+    --background-card-modalidade: whitesmoke;
+    --fundo-quadro: rgba(99, 1, 1, 1);
+    --shadow: rgb(182, 159, 159);
+    --formulario-borda: var(--vermelho-atletica);
+    --formulario-botao: var(--vermelho-atletica);
+    --formulario-botao-texto: var(--branco-texto);
+    --vermelho-alerta: red;
+}
+
+#conteudo {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #E5E5E5;
+
+}
+
+@import url("../../img/banner/campeonatos_mural.jpg");
+
+.banner__imagem {
+    background-image: url(campeonatos_mural.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+}
+
+.banner__titulo {
+    background-color: var(--cinza-fundo);
+    color: var(--titulo-h1);
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner__titulo {
+        font-size: 2.9em;
+        top: 50%;
+    }
+
+    .tituloAlternativo {
+        top: 70%;
+    }
+
+    .tituloAlternativo2 {
+        top: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner__titulo {
+        font-size: 2.5em;
+        top: 46%;
+    }
+
+    .tituloAlternativo {
+        top: 63%;
+        font-size: 3em;
+    }
+
+    .tituloAlternativo2 {
+        top: 70%;
+    }
+
+}
+
+.breadcrumb {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li:not(:last-child):after {
+    content: ">";
+    margin: 0 8px;
+    font-size: 1.5rem;
+}
+
+.vigentes__lista {
+    list-style: none;
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+.vigentes__titulo {
+    color: var(--titulo-h1);
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+.vigentes__item {
+    color: var(--preto-padrao);
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.galeria__link {
+    color: var(--titulo-h1);
+    text-decoration: none;
+}
+
+.galeria__imagem {
+    border: none;
+    height: auto;
+    width: 180px;
+}
+
+.galeria__descricao {
+    border: 2px dashed var(--fundo-quadro);
+    height: 140px;
+    margin-left: 7%;
+    text-align: left;
+    width: 520px;
+    padding: 0 1em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.inscricoes__imagem {
+    border: none;
+    height: auto;
+    width: 180px;
+}
+
+.inscricoes__descricao {
+    border: 2px dashed var(--fundo-quadro);
+    height: 10%;
+    margin-left: 10%;
+    padding: 0 1em;
+    text-align: justify;
+    width: 520px;
+}
+
+.inscricoes__link {
+    color: var(--titulo-h1);
+    text-decoration: none;
+}
