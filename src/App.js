@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-import Acessibilidade from '.components/layouts/Acessibilidade'
+import Acessibilidade from './components/layouts/Acessibilidade'
 import Navbar from './components/layouts/Navbar'
 import Footer from './components/layouts/Footer'
 import Container from './components/layouts/Container'

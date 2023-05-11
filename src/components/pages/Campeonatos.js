@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Campeonato.module.css'
+import styles from './Campeonatos.module.css'
 import trofeus from '../../img/campeonatos/trofeus.png';
 import calendario from '../../img/campeonatos/calendario.png';
 
