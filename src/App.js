@@ -14,6 +14,7 @@ import LoginPage from './components/pages/LoginPage'
 import LojaVirtual from './components/pages/LojaVirtual'
 import Modalidades from './components/pages/Modalidades'
 import QuemSomos from './components/pages/QuemSomos'
+import AcessibilidadePage from './components/pages/AcessibilidadePage'
 
 
 function App() {
@@ -26,11 +27,13 @@ function App() {
           <Route exact path="/">
             <Inicio />
           </Route>
+          <Route exact path="/acessibilidadepage" component={AcessibilidadePage}>
+          </Route>
           <Route exact path="/cadastro" component={Cadastro}>
           </Route>
           <Route exact path="/quemsomos" component={QuemSomos}>
           </Route>
-          <Route exact path="/modalidades" component= {Modalidades}>
+          <Route exact path="/modalidades" component={Modalidades}>
           </Route>
           <Route exact path="/campeonatos" component={Campeonatos}>
           </Route>
