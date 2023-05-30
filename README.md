@@ -1,3 +1,7 @@
+# Atlética FATEC Zona Leste
+
+Projeto interdisciplinar do 4º Semestre do Curso de Desenvolvimento de Software Multiplataforma da Fatec Zona Leste - Tema: Sistema web da Atlética da Fatec ZL - 2023 (REACT)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
