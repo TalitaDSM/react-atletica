@@ -25,13 +25,13 @@ function App() {
         <Container customClass="min-height">
           <Route exact path="/" component={Inicio}>
           </Route>
-          <Route exact path="/acessibilidadepage" component={AcessibilidadePage}>
-          </Route>
+          {/*<Route exact path="/acessibilidadepage" component={AcessibilidadePage}>
+          </Route>*/}
           <Route exact path="/cadastro" component={Cadastro}>
           </Route>
           <Route exact path="/quemsomos" component={QuemSomos}>
           </Route>
-          <Route exact path="/modalidades" component={Modalidades}>
+          {/*<Route exact path="/modalidades" component={Modalidades}>
           </Route>
           <Route exact path="/campeonatos" component={Campeonatos}>
           </Route>
@@ -42,7 +42,7 @@ function App() {
           <Route exact path="/contato" component={Contato} >
           </Route>
           <Route exact path="/loginpage" component={LoginPage}>
-          </Route>
+        </Route>*/}
         </Container>
       </Switch>
       <Footer />

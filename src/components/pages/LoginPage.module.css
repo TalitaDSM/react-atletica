@@ -1,4 +1,4 @@
-.container{
+{/*.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +58,7 @@
 .link__recuperarSenha:hover{
     color: yellow;
 }
+*/}
 
 
 /*
